@@ -1,0 +1,104 @@
+hr {
+   height: 1px;
+   background-color: #BEBEBE;
+}
+
+
+ul.special-icons {
+		margin: 0em;
+		padding: 0em;
+}
+
+ul.special-icons > li {
+	position: relative;
+	padding: 0.50em 0em 0.50em 0em;
+}
+
+ul.special-icons > li:before {
+	position: absolute;
+	left: 0;
+	top: 2em;
+	display: block;
+	background: none;
+	font-size: 2em;
+	border-radius: 5px;
+}
+
+ul.special-icons > li:first-child {
+	border-top: none;
+}
+
+ul.special-icons h3 {
+	margin-bottom: 0.80em;
+	line-height: 2em;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.2em;
+}
+
+ul.special-icons span {
+	line-height: 190%;
+}
+
+ul.special-icons .fa {
+	float: left;
+	display: inline-block;
+	padding-right: 1em;
+	font-size: 1.4em;
+	color: black;
+}
+
+ul.special-icons p {
+	padding-left: 2.7em;
+}
+
+
+ul.icons {
+		cursor: default;
+		padding-bottom: 2em;
+}
+
+ul.icons li {
+display: inline-block;
+line-height: 1em;
+padding: 0.5em 1em;
+}
+
+ul.icons li:first-child {
+	padding-left: 0;
+}
+
+ul.icons li span {
+	display: none;
+}
+
+ul.icons li a {
+	text-decoration: none;
+	font-size: 2em;
+	color: inherit;
+	opacity: 0.5;
+	-moz-transition: all 0.35s ease-in-out;
+	-webkit-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
+	-ms-transition: all 0.35s ease-in-out;
+	transition: all 0.35s ease-in-out;
+}
+
+ul.icons li a:hover {
+	color: #fed136;
+	opacity: 1;
+}
+
+
+
+#fila_iconos{
+	margin: 0;
+	padding-bottom: 10px;
+	font-size: 35px;
+}
+
+.iconitos {
+	padding: 10px !important;
+}
+
+
